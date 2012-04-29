@@ -11,7 +11,7 @@ var mongoose = require('mongoose');
 
 var port = process.env.PORT || 3000;
 
-var db = mongoose.connect('mongodb://shrikar:shrikar@ds033037.mongolab.com:33037/chartboost');
+var db = mongoose.connect('mongodb://shrikar:shrikar@ds033037.mongolab.com:33037/events');
 var Schema = mongoose.Schema;
 var app = module.exports = express.createServer();
 var url = require("url");
@@ -52,7 +52,6 @@ app.post('/saveEvent', function(req,res){
 	console.log(req.body.user_id);
 	console.log(req.body.key);
 	console.log(req.body.value);
-	//console.log(req.body.optional);
 	var list = req.body.optional;
 
 	var edited = list.substr(1,list.length-2).replace(/{|}|\s/gi,'').split(',');

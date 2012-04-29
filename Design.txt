@@ -1,0 +1,15 @@
+REST API's
+===========
+1) SaveEvent : This api is used for creating a event associated with a particular user. Has a key and a value pair and associated optional key/val list
+2) getEvent : For a given user_id and key find the total of all the values. ( Assumption values to be a integer).
+
+
+Possible Candidates for DataStore.
+==================================
+Given the type of data the most obvious candidates are any generic Key/Value store
+or a NoSQL database.
+
+1) For our case I would go with MongoDB a NoSQL database which can Scale horizontally. Since we are doing some kind of aggregation with respect to user_id and key/subkeys having a db with rich query interface would make our job easier as compared to Key Value stores.
+
+Given that the system need to scale we can use the Sharding feature of MongoDB so as to distribute the data across different machines and hence achieve load balance in the system.
+
