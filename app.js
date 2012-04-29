@@ -8,7 +8,10 @@ var express = require('express')
 var querystring = require("querystring");
 var http = require('http');
 var mongoose = require('mongoose');
-var db = mongoose.connect('mongodb://192.168.1.150/chartboost');
+
+var port = process.env.PORT || 3000;
+
+var db = mongoose.connect('mongodb://shrikar:shrikar@ds033037.mongolab.com:33037/chartboost');
 var Schema = mongoose.Schema;
 var app = module.exports = express.createServer();
 var url = require("url");
@@ -114,5 +117,5 @@ app.get('/getEvent', function(req,res){
 	});
 
 });
-app.listen(3000);
+app.listen(port);
 console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
