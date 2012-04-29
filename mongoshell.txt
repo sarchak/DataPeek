@@ -1,0 +1,150 @@
+... )
+Sat Apr 28 18:16:14 SyntaxError: invalid property id (shell):1
+> db.eventdbs.find( {"user_id":"shrikar", "optional.subkey": "subkey22",{"value":1})
+... })
+Sat Apr 28 18:16:26 SyntaxError: invalid property id (shell):1
+> db.eventdbs.find( {"user_id":"shrikar", "optional.subkey": "subkey22"},{"value":1})
+> db.eventdbs.find( {"user_id":"shrikar", "optional.subkey"})
+Sat Apr 28 18:16:55 SyntaxError: missing : after property id (shell):1
+> db.eventdbs.find( {"user_id":"shrikar", "optional.subkey":"subkeys22"})
+> db.eventdbs.find( {"user_id":"shrikar"})
+{ "user_id" : "shrikar", "key" : "key1", "value" : 10, "_id" : ObjectId("4f9c8a42eff41cf638000002"), "date" : ISODate("2012-04-29T00:24:34.813Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8a42eff41cf638000004") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8a42eff41cf638000003") } ] }
+{ "user_id" : "shrikar", "key" : "key1", "value" : 20, "_id" : ObjectId("4f9c8bcaeff41cf638000005"), "date" : ISODate("2012-04-29T00:31:06.920Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8bcaeff41cf638000007") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8bcaeff41cf638000006") } ] }
+{ "user_id" : "shrikar", "key" : "key1", "value" : 2, "_id" : ObjectId("4f9c8c6deff41cf638000008"), "date" : ISODate("2012-04-29T00:33:49.169Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8c6deff41cf63800000a") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8c6deff41cf638000009") } ] }
+{ "user_id" : "shrikar", "key" : "key1", "value" : 25, "_id" : ObjectId("4f9c8c70eff41cf63800000b"), "date" : ISODate("2012-04-29T00:33:52.928Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8c70eff41cf63800000d") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8c70eff41cf63800000c") } ] }
+{ "user_id" : "shrikar", "key" : "key1", "value" : 22, "_id" : ObjectId("4f9c8c76eff41cf63800000e"), "date" : ISODate("2012-04-29T00:33:58.415Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8c76eff41cf638000010") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8c76eff41cf63800000f") } ] }
+{ "user_id" : "shrikar", "key" : "key2", "value" : 22, "_id" : ObjectId("4f9c8dfaeff41cf638000011"), "date" : ISODate("2012-04-29T00:40:26.385Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8dfaeff41cf638000013") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8dfaeff41cf638000012") } ] }
+{ "user_id" : "shrikar", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c8e8b0c24a51539000002"), "date" : ISODate("2012-04-29T00:42:51.223Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8e8b0c24a51539000004") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8e8b0c24a51539000003") } ] }
+{ "user_id" : "shrikar", "key" : "key", "_id" : ObjectId("4f9c8ead0c24a51539000005"), "date" : ISODate("2012-04-29T00:43:25.212Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20",	"_id" : ObjectId("4f9c8ead0c24a51539000007") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8ead0c24a51539000006") } ] }
+{ "user_id" : "shrikar", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c8ec40c24a51539000008"), "date" : ISODate("2012-04-29T00:43:48.714Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8ec40c24a5153900000a") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8ec40c24a51539000009") } ] }
+{ "user_id" : "shrikar", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c8f9f864bbf2239000002"), "date" : ISODate("2012-04-29T00:47:27.412Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8f9f864bbf2239000004") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8f9f864bbf2239000003") } ] }
+> db.events.remove()
+> db.eventdbs.find( {"user_id":"shrikar"})
+{ "user_id" : "shrikar", "key" : "key1", "value" : 10, "_id" : ObjectId("4f9c8a42eff41cf638000002"), "date" : ISODate("2012-04-29T00:24:34.813Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8a42eff41cf638000004") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8a42eff41cf638000003") } ] }
+{ "user_id" : "shrikar", "key" : "key1", "value" : 20, "_id" : ObjectId("4f9c8bcaeff41cf638000005"), "date" : ISODate("2012-04-29T00:31:06.920Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8bcaeff41cf638000007") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8bcaeff41cf638000006") } ] }
+{ "user_id" : "shrikar", "key" : "key1", "value" : 2, "_id" : ObjectId("4f9c8c6deff41cf638000008"), "date" : ISODate("2012-04-29T00:33:49.169Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8c6deff41cf63800000a") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8c6deff41cf638000009") } ] }
+{ "user_id" : "shrikar", "key" : "key1", "value" : 25, "_id" : ObjectId("4f9c8c70eff41cf63800000b"), "date" : ISODate("2012-04-29T00:33:52.928Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8c70eff41cf63800000d") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8c70eff41cf63800000c") } ] }
+{ "user_id" : "shrikar", "key" : "key1", "value" : 22, "_id" : ObjectId("4f9c8c76eff41cf63800000e"), "date" : ISODate("2012-04-29T00:33:58.415Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8c76eff41cf638000010") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8c76eff41cf63800000f") } ] }
+{ "user_id" : "shrikar", "key" : "key2", "value" : 22, "_id" : ObjectId("4f9c8dfaeff41cf638000011"), "date" : ISODate("2012-04-29T00:40:26.385Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8dfaeff41cf638000013") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8dfaeff41cf638000012") } ] }
+{ "user_id" : "shrikar", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c8e8b0c24a51539000002"), "date" : ISODate("2012-04-29T00:42:51.223Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8e8b0c24a51539000004") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8e8b0c24a51539000003") } ] }
+{ "user_id" : "shrikar", "key" : "key", "_id" : ObjectId("4f9c8ead0c24a51539000005"), "date" : ISODate("2012-04-29T00:43:25.212Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20",	"_id" : ObjectId("4f9c8ead0c24a51539000007") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8ead0c24a51539000006") } ] }
+{ "user_id" : "shrikar", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c8ec40c24a51539000008"), "date" : ISODate("2012-04-29T00:43:48.714Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8ec40c24a5153900000a") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8ec40c24a51539000009") } ] }
+{ "user_id" : "shrikar", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c8f9f864bbf2239000002"), "date" : ISODate("2012-04-29T00:47:27.412Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8f9f864bbf2239000004") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8f9f864bbf2239000003") } ] }
+> db.eventsdbs.remove()
+> db.eventdbs.find( {"user_id":"shrikar"})
+{ "user_id" : "shrikar", "key" : "key1", "value" : 10, "_id" : ObjectId("4f9c8a42eff41cf638000002"), "date" : ISODate("2012-04-29T00:24:34.813Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8a42eff41cf638000004") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8a42eff41cf638000003") } ] }
+{ "user_id" : "shrikar", "key" : "key1", "value" : 20, "_id" : ObjectId("4f9c8bcaeff41cf638000005"), "date" : ISODate("2012-04-29T00:31:06.920Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8bcaeff41cf638000007") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8bcaeff41cf638000006") } ] }
+{ "user_id" : "shrikar", "key" : "key1", "value" : 2, "_id" : ObjectId("4f9c8c6deff41cf638000008"), "date" : ISODate("2012-04-29T00:33:49.169Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8c6deff41cf63800000a") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8c6deff41cf638000009") } ] }
+{ "user_id" : "shrikar", "key" : "key1", "value" : 25, "_id" : ObjectId("4f9c8c70eff41cf63800000b"), "date" : ISODate("2012-04-29T00:33:52.928Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8c70eff41cf63800000d") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8c70eff41cf63800000c") } ] }
+{ "user_id" : "shrikar", "key" : "key1", "value" : 22, "_id" : ObjectId("4f9c8c76eff41cf63800000e"), "date" : ISODate("2012-04-29T00:33:58.415Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8c76eff41cf638000010") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8c76eff41cf63800000f") } ] }
+{ "user_id" : "shrikar", "key" : "key2", "value" : 22, "_id" : ObjectId("4f9c8dfaeff41cf638000011"), "date" : ISODate("2012-04-29T00:40:26.385Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8dfaeff41cf638000013") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8dfaeff41cf638000012") } ] }
+{ "user_id" : "shrikar", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c8e8b0c24a51539000002"), "date" : ISODate("2012-04-29T00:42:51.223Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8e8b0c24a51539000004") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8e8b0c24a51539000003") } ] }
+{ "user_id" : "shrikar", "key" : "key", "_id" : ObjectId("4f9c8ead0c24a51539000005"), "date" : ISODate("2012-04-29T00:43:25.212Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20",	"_id" : ObjectId("4f9c8ead0c24a51539000007") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8ead0c24a51539000006") } ] }
+{ "user_id" : "shrikar", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c8ec40c24a51539000008"), "date" : ISODate("2012-04-29T00:43:48.714Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8ec40c24a5153900000a") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8ec40c24a51539000009") } ] }
+{ "user_id" : "shrikar", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c8f9f864bbf2239000002"), "date" : ISODate("2012-04-29T00:47:27.412Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c8f9f864bbf2239000004") }, 	{ 	"subkey" : "20", 	"subval" : "subkey2", 	"_id" : ObjectId("4f9c8f9f864bbf2239000003") } ] }
+> db.eventdbs.remove()
+> db.eventdbs.find( {"user_id":"shrikar"})
+> db.eventdbs.find( {"user_id":"shrikar"})
+> db.eventdbs.find( {"user_id":"shrikar1"})
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c9710864bbf2239000011"), "date" : ISODate("2012-04-29T01:19:12.180Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c9710864bbf2239000013") }, 	{ 	"subkey" : "20", 	"subval" : "subkey22", 	"_id" : ObjectId("4f9c9710864bbf2239000012") } ] }
+> db.eventdbs.remove()
+> db.eventdbs.find( {"user_id":"shrikar1"})
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c9767cda3787a39000002"), "date" : ISODate("2012-04-29T01:20:39.822Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c9767cda3787a39000003") } ] }
+> db.eventdbs.remove()
+> db.eventdbs.find( {"user_id":"shrikar1"})
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c979ff53bd07c39000002"), "date" : ISODate("2012-04-29T01:21:35.395Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c979ff53bd07c39000004") }, 	{ 	"subkey" : "subkey22", 	"subval" : "30 ]", 	"_id" : ObjectId("4f9c979ff53bd07c39000003") } ] }
+> db.eventdbs.find( {"user_id":"shrikar1","optional.subkey":"subkey22"})
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c979ff53bd07c39000002"), "date" : ISODate("2012-04-29T01:21:35.395Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c979ff53bd07c39000004") }, 	{ 	"subkey" : "subkey22", 	"subval" : "30 ]", 	"_id" : ObjectId("4f9c979ff53bd07c39000003") } ] }
+> db.eventdbs.find( {"user_id":"shrikar1","optional.subkey":"subkey2"})
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c97b1f53bd07c39000005"), "date" : ISODate("2012-04-29T01:21:53.549Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c97b1f53bd07c39000007") }, 	{ 	"subkey" : "subkey2", 	"subval" : "30 ]", 	"_id" : ObjectId("4f9c97b1f53bd07c39000006") } ] }
+> db.eventdbs.find( {"user_id":"shrikar1","optional.subkey":"subkey22"})
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c979ff53bd07c39000002"), "date" : ISODate("2012-04-29T01:21:35.395Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c979ff53bd07c39000004") }, 	{ 	"subkey" : "subkey22", 	"subval" : "30 ]", 	"_id" : ObjectId("4f9c979ff53bd07c39000003") } ] }
+> db.eventdbs.find( {"user_id":"shrikar1","optional.subkey":"subkey22"})
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c979ff53bd07c39000002"), "date" : ISODate("2012-04-29T01:21:35.395Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c979ff53bd07c39000004") }, 	{ 	"subkey" : "subkey22", 	"subval" : "30 ]", 	"_id" : ObjectId("4f9c979ff53bd07c39000003") } ] }
+> 
+> 
+> 
+> 
+> db.eventdbs.find( {"user_id":"shrikar1","optional.subkey":"subkey22"})
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c979ff53bd07c39000002"), "date" : ISODate("2012-04-29T01:21:35.395Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c979ff53bd07c39000004") }, 	{ 	"subkey" : "subkey22", 	"subval" : "30 ]", 	"_id" : ObjectId("4f9c979ff53bd07c39000003") } ] }
+> db.eventdbs.find( {"user_id":"shrikar1","optional.subkey":"subkey22"})
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c979ff53bd07c39000002"), "date" : ISODate("2012-04-29T01:21:35.395Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c979ff53bd07c39000004") }, 	{ 	"subkey" : "subkey22", 	"subval" : "30 ]", 	"_id" : ObjectId("4f9c979ff53bd07c39000003") } ] }
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c9811f53bd07c3900000b"), "date" : ISODate("2012-04-29T01:23:29.052Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c9811f53bd07c3900000d") }, 	{ 	"subkey" : "subkey22", 	"subval" : "33 ]", 	"_id" : ObjectId("4f9c9811f53bd07c3900000c") } ] }
+> 
+> 
+> 
+> 
+> db.eventdbs.find( {"user_id":"shrikar1","optional.subkey":"subkey22"})
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c979ff53bd07c39000002"), "date" : ISODate("2012-04-29T01:21:35.395Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c979ff53bd07c39000004") }, 	{ 	"subkey" : "subkey22", 	"subval" : "30 ]", 	"_id" : ObjectId("4f9c979ff53bd07c39000003") } ] }
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c9811f53bd07c3900000b"), "date" : ISODate("2012-04-29T01:23:29.052Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c9811f53bd07c3900000d") }, 	{ 	"subkey" : "subkey22", 	"subval" : "33 ]", 	"_id" : ObjectId("4f9c9811f53bd07c3900000c") } ] }
+> db.eventdbs.find( {"user_id":"shrikar1","optional.subkey":"subkey22", "date" : { "$gt" : SODate("2012-04-29T01:21:35.395Z")}},{"value":1})
+Sat Apr 28 18:24:37 ReferenceError: SODate is not defined (shell):1
+> db.eventdbs.find( {"user_id":"shrikar1","optional.subkey":"subkey22", "date" : { "$gt" : ISODate("2012-04-29T01:21:35.395Z")}},{"value":1})
+{ "value" : 23, "_id" : ObjectId("4f9c9811f53bd07c3900000b") }
+> db.eventdbs.find( {"user_id":"shrikar1","optional.subkey":"subkey22", "date" : { "$gt" : ISODate("2012-04-29T01:21:35.395Z")}},{"value":1})
+{ "value" : 23, "_id" : ObjectId("4f9c9811f53bd07c3900000b") }
+> db.eventdbs.find( {"user_id":"shrikar1","optional.subkey":"subkey22"},{"value":1})
+{ "value" : 23, "_id" : ObjectId("4f9c979ff53bd07c39000002") }
+{ "value" : 23, "_id" : ObjectId("4f9c9811f53bd07c3900000b") }
+> db.eventdbs.find( {"user_id":"shrikar1","key":"shrek","optional.subkey":"subkey22"},{"value":1})
+> db.eventdbs.find( {"user_id":"shrikar1","key":"shrek","optional.subkey":"subkey22"},{"value":1})
+> db.eventdbs.find({$or : [{key":"shrek","optional.subkey":"subkey22"}]})
+... )
+... }
+... 
+shrikar@thinksmart:~$ mongo
+MongoDB shell version: 2.0.2
+connecting to: test
+> user chartboost
+Sat Apr 28 18:28:43 SyntaxError: missing ; before statement (shell):1
+> use chartboost
+switched to db chartboost
+> db.eventdbs.find( {$or : [{"key":"shrek"},{"optional.subkey":"subkey22"}]})
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c979ff53bd07c39000002"), "date" : ISODate("2012-04-29T01:21:35.395Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c979ff53bd07c39000004") }, 	{ 	"subkey" : "subkey22", 	"subval" : "30 ]", 	"_id" : ObjectId("4f9c979ff53bd07c39000003") } ] }
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c9811f53bd07c3900000b"), "date" : ISODate("2012-04-29T01:23:29.052Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c9811f53bd07c3900000d") }, 	{ 	"subkey" : "subkey22", 	"subval" : "33 ]", 	"_id" : ObjectId("4f9c9811f53bd07c3900000c") } ] }
+{ "user_id" : "shrikar1", "key" : "shrek", "value" : 237, "_id" : ObjectId("4f9c98bdf53bd07c3900000e"), "date" : ISODate("2012-04-29T01:26:21.933Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c98bdf53bd07c39000010") }, 	{ 	"subkey" : "subkey2", 	"subval" : "33 ]", 	"_id" : ObjectId("4f9c98bdf53bd07c3900000f") } ] }
+> db.eventdbs.find( {$or : [{"key":"shrek"},{"optional.subkey":"subkey22"}]})
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c979ff53bd07c39000002"), "date" : ISODate("2012-04-29T01:21:35.395Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c979ff53bd07c39000004") }, 	{ 	"subkey" : "subkey22", 	"subval" : "30 ]", 	"_id" : ObjectId("4f9c979ff53bd07c39000003") } ] }
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c9811f53bd07c3900000b"), "date" : ISODate("2012-04-29T01:23:29.052Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c9811f53bd07c3900000d") }, 	{ 	"subkey" : "subkey22", 	"subval" : "33 ]", 	"_id" : ObjectId("4f9c9811f53bd07c3900000c") } ] }
+{ "user_id" : "shrikar1", "key" : "shrek", "value" : 237, "_id" : ObjectId("4f9c98bdf53bd07c3900000e"), "date" : ISODate("2012-04-29T01:26:21.933Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c98bdf53bd07c39000010") }, 	{ 	"subkey" : "subkey2", 	"subval" : "33 ]", 	"_id" : ObjectId("4f9c98bdf53bd07c3900000f") } ] }
+> 
+> 
+> 
+> 
+> db.eventdbs.find( {$or : [{"key":"shrek"},{"optional.subkey":"subkey22"}]})
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c979ff53bd07c39000002"), "date" : ISODate("2012-04-29T01:21:35.395Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c979ff53bd07c39000004") }, 	{ 	"subkey" : "subkey22", 	"subval" : "30 ]", 	"_id" : ObjectId("4f9c979ff53bd07c39000003") } ] }
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c9811f53bd07c3900000b"), "date" : ISODate("2012-04-29T01:23:29.052Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c9811f53bd07c3900000d") }, 	{ 	"subkey" : "subkey22", 	"subval" : "33 ]", 	"_id" : ObjectId("4f9c9811f53bd07c3900000c") } ] }
+{ "user_id" : "shrikar1", "key" : "shrek", "value" : 237, "_id" : ObjectId("4f9c98bdf53bd07c3900000e"), "date" : ISODate("2012-04-29T01:26:21.933Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c98bdf53bd07c39000010") }, 	{ 	"subkey" : "subkey2", 	"subval" : "33 ]", 	"_id" : ObjectId("4f9c98bdf53bd07c3900000f") } ] }
+{ "user_id" : "shrikar", "key" : "shrek", "value" : 37, "_id" : ObjectId("4f9c99ccf53bd07c39000014"), "date" : ISODate("2012-04-29T01:30:52.253Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c99ccf53bd07c39000016") }, 	{ 	"subkey" : "subkey2", 	"subval" : "33 ]", 	"_id" : ObjectId("4f9c99ccf53bd07c39000015") } ] }
+> db.eventdbs.find( {"user_id":"shrikar1"},{$or : [{"key":"shrek"},{"optional.subkey":"subkey22"}]})
+{ "_id" : ObjectId("4f9c979ff53bd07c39000002") }
+{ "_id" : ObjectId("4f9c97b1f53bd07c39000005") }
+{ "_id" : ObjectId("4f9c97e0f53bd07c39000008") }
+{ "_id" : ObjectId("4f9c9811f53bd07c3900000b") }
+{ "_id" : ObjectId("4f9c98bdf53bd07c3900000e") }
+{ "_id" : ObjectId("4f9c99a7f53bd07c39000011") }
+> db.eventdbs.find({$or : [{"key":"shrek"},{"optional.subkey":"subkey22"}]})
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c979ff53bd07c39000002"), "date" : ISODate("2012-04-29T01:21:35.395Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c979ff53bd07c39000004") }, 	{ 	"subkey" : "subkey22", 	"subval" : "30 ]", 	"_id" : ObjectId("4f9c979ff53bd07c39000003") } ] }
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c9811f53bd07c3900000b"), "date" : ISODate("2012-04-29T01:23:29.052Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c9811f53bd07c3900000d") }, 	{ 	"subkey" : "subkey22", 	"subval" : "33 ]", 	"_id" : ObjectId("4f9c9811f53bd07c3900000c") } ] }
+{ "user_id" : "shrikar1", "key" : "shrek", "value" : 237, "_id" : ObjectId("4f9c98bdf53bd07c3900000e"), "date" : ISODate("2012-04-29T01:26:21.933Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c98bdf53bd07c39000010") }, 	{ 	"subkey" : "subkey2", 	"subval" : "33 ]", 	"_id" : ObjectId("4f9c98bdf53bd07c3900000f") } ] }
+{ "user_id" : "shrikar", "key" : "shrek", "value" : 37, "_id" : ObjectId("4f9c99ccf53bd07c39000014"), "date" : ISODate("2012-04-29T01:30:52.253Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c99ccf53bd07c39000016") }, 	{ 	"subkey" : "subkey2", 	"subval" : "33 ]", 	"_id" : ObjectId("4f9c99ccf53bd07c39000015") } ] }
+> db.eventdbs.find({"user_id": "shrikar", $or : [{"key":"shrek"},{"optional.subkey":"subkey22"}]})
+{ "user_id" : "shrikar", "key" : "shrek", "value" : 37, "_id" : ObjectId("4f9c99ccf53bd07c39000014"), "date" : ISODate("2012-04-29T01:30:52.253Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c99ccf53bd07c39000016") }, 	{ 	"subkey" : "subkey2", 	"subval" : "33 ]", 	"_id" : ObjectId("4f9c99ccf53bd07c39000015") } ] }
+> 
+> 
+> 
+> 
+> db.eventdbs.find({"user_id": "shrikar", $or : [{"key":"shrek"},{"optional.subkey":"subkey22"}]})
+{ "user_id" : "shrikar", "key" : "shrek", "value" : 37, "_id" : ObjectId("4f9c99ccf53bd07c39000014"), "date" : ISODate("2012-04-29T01:30:52.253Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c99ccf53bd07c39000016") }, 	{ 	"subkey" : "subkey2", 	"subval" : "33 ]", 	"_id" : ObjectId("4f9c99ccf53bd07c39000015") } ] }
+> db.eventdbs.find({"user_id": "shrikar1", $or : [{"key":"shrek"},{"optional.subkey":"subkey22"}]})
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c979ff53bd07c39000002"), "date" : ISODate("2012-04-29T01:21:35.395Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c979ff53bd07c39000004") }, 	{ 	"subkey" : "subkey22", 	"subval" : "30 ]", 	"_id" : ObjectId("4f9c979ff53bd07c39000003") } ] }
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c9811f53bd07c3900000b"), "date" : ISODate("2012-04-29T01:23:29.052Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c9811f53bd07c3900000d") }, 	{ 	"subkey" : "subkey22", 	"subval" : "33 ]", 	"_id" : ObjectId("4f9c9811f53bd07c3900000c") } ] }
+{ "user_id" : "shrikar1", "key" : "shrek", "value" : 237, "_id" : ObjectId("4f9c98bdf53bd07c3900000e"), "date" : ISODate("2012-04-29T01:26:21.933Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c98bdf53bd07c39000010") }, 	{ 	"subkey" : "subkey2", 	"subval" : "33 ]", 	"_id" : ObjectId("4f9c98bdf53bd07c3900000f") } ] }
+> 
+> 
+> 
+> db.eventdbs.find({"user_id": "shrikar1", $or : [{"key":"shrek"},{"optional.subkey":"subkey22"}]})
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c979ff53bd07c39000002"), "date" : ISODate("2012-04-29T01:21:35.395Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c979ff53bd07c39000004") }, 	{ 	"subkey" : "subkey22", 	"subval" : "30 ]", 	"_id" : ObjectId("4f9c979ff53bd07c39000003") } ] }
+{ "user_id" : "shrikar1", "key" : "key", "value" : 23, "_id" : ObjectId("4f9c9811f53bd07c3900000b"), "date" : ISODate("2012-04-29T01:23:29.052Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c9811f53bd07c3900000d") }, 	{ 	"subkey" : "subkey22", 	"subval" : "33 ]", 	"_id" : ObjectId("4f9c9811f53bd07c3900000c") } ] }
+{ "user_id" : "shrikar1", "key" : "shrek", "value" : 237, "_id" : ObjectId("4f9c98bdf53bd07c3900000e"), "date" : ISODate("2012-04-29T01:26:21.933Z"), "optional" : [ 	{ 	"subkey" : "subkey1", 	"subval" : "20", 	"_id" : ObjectId("4f9c98bdf53bd07c39000010") }, 	{ 	"subkey" : "subkey2", 	"subval" : "33 ]", 	"_id" : ObjectId("4f9c98bdf53bd07c3900000f") } ] }
+> db.eventdbs.find({"user_id": "shrikar1", $or : [{"key":"shrek"},{"optional.subkey":"subkey22"}]})
