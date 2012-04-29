@@ -11,5 +11,61 @@ or a NoSQL database.
 
 1) For our case I would go with MongoDB a NoSQL database which can Scale horizontally. Since we are doing some kind of aggregation with respect to user_id and key/subkeys having a db with rich query interface would make our job easier as compared to Key Value stores.
 
-Given that the system need to scale we can use the Sharding feature of MongoDB so as to distribute the data across different machines and hence achieve load balance in the system.
+Given that the system need to scale we can use the Sharding feature of MongoDB so as to distribute the data across different machines and hence load balance the system.
+
+2) Choice of MongoClient : Mongoose.
+   Provides a simple apis for querying db.
+
+3) Express framework for providing the REST type API's.
+
+4) Depending on the number of Cores we could create those many Node.js process fronted by Nginx server. All the node.js process talk to a single
+   Mongo backend.
+
+5 ) Demo of the app available on Heroku. Using the shared instance of MongoLab for the demo.
+
+
+Example : 
+
+FOR saveEvent:
+curl http://hollow-meadow-3903.herokuapp.com/saveEvent -XPOST -d "user_id=shrikar&key=shrek&value=100&optional=[{shrek,50},{subkey1,33 } ]"
+Event Saved.
+
+For getEvent:
+curl "http://hollow-meadow-3903.herokuapp.com/getEvent?user_id=shrikar&key=shrek&start=2012-04-29T02:50:42.749Z&end=2012-04-29T010:11:16.262Z"
+{"sum":150}
+
+
+
+EXISTING Entries in MongoLab
+
+{
+    "user_id": "shrikar",
+    "key": "shrek",
+    "value": 100,
+    "_id": {
+        "$oid": "4f9ce46baaa6d00100000002"
+    },
+    "date": {
+        "$date": "2012-04-29T06:49:15.335Z"
+    },
+    "optional": [
+        {
+            "subkey": "shrek",
+            "subval": "50",
+            "_id": {
+                "$oid": "4f9ce46baaa6d00100000004"
+            }
+        },
+        {
+            "subkey": "subkey1",
+            "subval": "33",
+            "_id": {
+                "$oid": "4f9ce46baaa6d00100000003"
+            }
+        }
+    ]
+}
+
+
+Another example of Node.js and MongoDB : http://hashedout.info
 
